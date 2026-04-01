@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ON-SET Productions | Music Video Booking</title>
+    <meta name="description"
+        content="Book your next music video with ON-SET Productions. High-quality Run & Gun or Full Production music videos.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;800&family=JetBrains+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Overlay Grain for Texture (Inspired by Mr.Mystery) -->
+    <div class="grain-overlay"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-box">SYS</span>
+                <span class="logo-text">ON-SET PRODUCTIONS</span>
+            </div>
+            <div class="nav-links desktop-only">
+                <a href="#about" class="nav-link text-mono">/ABOUT</a>
+                <a href="#services" class="nav-link text-mono">/PRICING</a>
+                <a href="#portfolio" class="nav-link text-mono">/WORK</a>
+                <a href="#booking" class="btn btn-outline text-mono">BOOK STRATEGY CALL</a>
+            </div>
+            <button class="mobile-menu-btn mobile-only">MENU</button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu">
+        <button class="mobile-menu-close">CLOSE [X]</button>
+        <div class="mobile-links">
+            <a href="#about">ABOUT</a>
+            <a href="#services">PRICING</a>
+            <a href="#portfolio">WORK</a>
+            <a href="#booking" class="text-accent">BOOK CALL</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-video-container">
+            <!-- Slideshow placeholder -->
+            <div class="hero-slide active">
+                <div class="video-placeholder bg-pattern-1"></div>
+            </div>
+            <div class="hero-slide">
+                <div class="video-placeholder bg-pattern-2"></div>
+            </div>
+            <div class="hero-overlay"></div>
+        </div>
+
+        <div class="hero-content">
+            <div class="hero-badge text-mono">[ TRANSMISSION: LIVE ]</div>
+            <h1 class="hero-title">WE SHOOT.<br><span class="text-accent">YOU SHINE.</span></h1>
+            <p class="hero-subtitle">Premium music video production. From gritty run-and-gun street visuals to massive
+                full-scale sets.</p>
+            <div class="hero-actions">
+                <a href="#services" class="btn btn-primary">VIEW SERVICES</a>
+                <a href="#booking" class="btn btn-outline">BOOK A CALL</a>
+            </div>
+        </div>
+        <div class="scroll-indicator text-mono">
+            <span>SCROLL</span>
+            <div class="line"></div>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+        <div class="container">
+            <div class="section-header center">
+                <span class="sub-heading text-mono text-accent">// SERVICES & PRICING</span>
+                <h2 class="section-title">WHAT WE OFFER</h2>
+            </div>
+
+            <!-- Category Tabs -->
+            <div class="pricing-tabs">
+                <button class="pricing-tab active" data-tab="editing">
+                    <span class="tab-icon">✂️</span>
+                    <span class="tab-label">VIDEO EDITING</span>
+                </button>
+                <button class="pricing-tab" data-tab="packages">
+                    <span class="tab-icon">📦</span>
+                    <span class="tab-label">MONTHLY PACKAGES</span>
+                </button>
+                <button class="pricing-tab" data-tab="production">
+                    <span class="tab-icon">🎥</span>
+                    <span class="tab-label">VIDEO PRODUCTION</span>
+                </button>
+                <button class="pricing-tab" data-tab="musicvideo">
+                    <span class="tab-icon">🎵</span>
+                    <span class="tab-label">MUSIC VIDEOS</span>
+                </button>
+            </div>
+
+            <!-- ====== TAB: VIDEO EDITING ====== -->
+            <div class="pricing-panel active" id="panel-editing">
+                <div class="panel-subtitle text-mono text-accent">🎞️ RECAP & CONTENT EDITING</div>
+                <div class="pricing-grid three-col">
+                    <!-- Starter Edit -->
+                    <div class="pricing-card border-card">
+                        <div class="pricing-card-header border-bottom">
+                            <span class="tag text-mono">01</span>
+                            <h3 class="pricing-card-title">STARTER EDIT</h3>
+                        </div>
+                        <div class="pricing-card-body">
+                            <ul class="pricing-features text-mono">
+                                <li>[+] 30–60 SEC RECAP</li>
+                                <li>[+] BASIC CUTS + MUSIC + PACING</li>
+                                <li>[+] LIGHT COLOUR CORRECTION</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-card-footer border-top">
+                            <span class="pricing-amount">R1,200</span>
+                            <span class="pricing-unit text-mono">PER VIDEO</span>
+                        </div>
+                    </div>
+
+                    <!-- Standard Edit -->
+                    <div class="pricing-card border-card popular-card">
+                        <div class="popular-badge">MOST POPULAR</div>
+                        <div class="pricing-card-header border-bottom">
+                            <span class="tag text-mono">02</span>
+                            <h3 class="pricing-card-title">STANDARD EDIT</h3>
+                        </div>
+                        <div class="pricing-card-body">
+                            <ul class="pricing-features text-mono">
+                                <li>[+] 30–90 SEC RECAP</li>
+                                <li>[+] ADVANCED PACING + MUSIC SYNC</li>
+                                <li>[+] COLOUR GRADING</li>
+                                <li>[+] LIGHT EFFECTS + TRANSITIONS</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-card-footer border-top">
+                            <span class="pricing-amount">R2,000</span>
+                            <span class="pricing-unit text-mono">PER VIDEO</span>
+                        </div>
+                    </div>
+
+                    <!-- Premium Edit -->
+                    <div class="pricing-card border-card">
+                        <div class="pricing-card-header border-bottom">
+                            <span class="tag text-mono">03</span>
+                            <h3 class="pricing-card-title">PREMIUM EDIT</h3>
+                        </div>
+                        <div class="pricing-card-body">
+                            <ul class="pricing-features text-mono">
+                                <li>[+] 60–120 SEC CINEMATIC RECAP</li>
+                                <li>[+] STORYTELLING STRUCTURE</li>
+                                <li>[+] ADVANCED EFFECTS + SOUND DESIGN</li>
+                                <li>[+] HIGH-END COLOUR GRADING</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-card-footer border-top">
+                            <span class="pricing-amount">R3,500</span>
+                            <span class="pricing-unit text-mono">PER VIDEO</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ====== TAB: MONTHLY PACKAGES ====== -->
+            <div class="pricing-panel" id="panel-packages">
+                <div class="panel-subtitle text-mono text-accent">📦 MONTHLY CONTENT PACKAGES</div>
+                <div class="pricing-grid two-col">
+                    <!-- Content Flow -->
+                    <div class="pricing-card border-card">
+                        <div class="pricing-card-header border-bottom">
+                            <span class="tag text-mono">01</span>
+                            <h3 class="pricing-card-title">CONTENT FLOW</h3>
+                        </div>
+                        <div class="pricing-card-body">
+                            <ul class="pricing-features text-mono">
+                                <li>[+] 8 VIDEOS PER MONTH</li>
+                                <li>[+] PRIORITY TURNAROUND</li>
+                                <li>[+] CONSISTENT BRANDING STYLE</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-card-footer border-top">
+                            <span class="pricing-amount">R10,000</span>
+                            <span class="pricing-unit text-mono">/MONTH</span>
+                        </div>
+                    </div>
+
+                    <!-- Content Pro -->
+                    <div class="pricing-card border-card popular-card">
+                        <div class="popular-badge">RECOMMENDED</div>
+                        <div class="pricing-card-header border-bottom">
+                            <span class="tag text-mono">02</span>
+                            <h3 class="pricing-card-title">CONTENT PRO</h3>
+                        </div>
+                        <div class="pricing-card-body">
+                            <ul class="pricing-features text-mono">
+                                <li>[+] 12–16 VIDEOS PER MONTH</li>
+                                <li>[+] FASTER DELIVERY</li>
+                                <li>[+] HIGHER DETAIL EDITS + CREATIVE INPUT</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-card-footer border-top">
+                            <span class="pricing-amount">R16,000</span>
+                            <span class="pricing-unit text-mono">/MONTH</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ====== TAB: VIDEO PRODUCTION ====== -->
+            <div class="pricing-panel" id="panel-production">
+                <div class="panel-subtitle text-mono text-accent">🎬 EVENT & RECAP FILMING</div>
+                <div class="pricing-grid three-col">
+                    <!-- Basic Shoot -->
+                    <div class="pricing-card border-card">
+                        <div class="pricing-card-header border-bottom">
+                            <span class="tag text-mono">01</span>
+                            <h3 class="pricing-card-title">BASIC SHOOT</h3>
+                        </div>
+                        <div class="pricing-card-body">
+                            <ul class="pricing-features text-mono">
+                                <li>[+] 1 CAMERA OPERATOR</li>
+                                <li>[+] UP TO 2 HOURS COVERAGE</li>
+                                <li>[+] RAW FOOTAGE + 1 EDITED RECAP</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-card-footer border-top">
+                            <span class="pricing-amount">R3,500</span>
+                            <span class="pricing-unit text-mono">PER EVENT</span>
+                        </div>
+                    </div>
+
+                    <!-- Standard Shoot -->
+                    <div class="pricing-card border-card popular-card">
+                        <div class="popular-badge">MOST POPULAR</div>
+                        <div class="pricing-card-header border-bottom">
+                            <span class="tag text-mono">02</span>
+                            <h3 class="pricing-card-title">STANDARD SHOOT</h3>
+                        </div>
+                        <div class="pricing-card-body">
+                            <ul class="pricing-features text-mono">
+                                <li>[+] 1–2 CAMERA SETUP</li>
+                                <li>[+] UP TO 4 HOURS COVERAGE</li>
+                                <li>[+] 1–2 EDITED RECAP VIDEOS</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-card-footer border-top">
+                            <span class="pricing-amount">R6,500</span>
+                            <span class="pricing-unit text-mono">PER EVENT</span>
+                        </div>
+                    </div>
+
+                    <!-- Full Production -->
+                    <div class="pricing-card border-card">
+                        <div class="pricing-card-header border-bottom">
+                            <span class="tag text-mono">03</span>
+                            <h3 class="pricing-card-title">FULL PRODUCTION</h3>
+                        </div>
+                        <div class="pricing-card-body">
+                            <ul class="pricing-features text-mono">
+                                <li>[+] MULTI-CAMERA SETUP</li>
+                                <li>[+] 6+ HOURS COVERAGE</li>
+                                <li>[+] FULL RECAP + SHORT-FORM CLIPS</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-card-footer border-top">
+                            <span class="pricing-amount">R10,000+</span>
+                            <span class="pricing-unit text-mono">PER EVENT</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ====== TAB: MUSIC VIDEOS ====== -->
+            <div class="pricing-panel" id="panel-musicvideo">
+                <div class="panel-subtitle text-mono text-accent">🎵 MUSIC VIDEO PRODUCTION</div>
+                <div class="pricing-grid three-col">
+                    <!-- Performance Video -->
+                    <div class="pricing-card border-card">
+                        <div class="pricing-card-header border-bottom">
+                            <span class="tag text-mono">01</span>
+                            <h3 class="pricing-card-title">PERFORMANCE VIDEO</h3>
+                        </div>
+                        <div class="pricing-card-body">
+                            <ul class="pricing-features text-mono">
+                                <li>[+] 1 LOCATION</li>
+                                <li>[+] BASIC LIGHTING SETUP</li>
+                                <li>[+] PERFORMANCE-BASED VISUALS</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-card-footer border-top">
+                            <span class="pricing-amount">R6,000 – R9,000</span>
+                            <span class="pricing-unit text-mono">PER VIDEO</span>
+                        </div>
+                    </div>
+
+                    <!-- Concept Music Video -->
+                    <div class="pricing-card border-card popular-card">
+                        <div class="popular-badge">POPULAR</div>
+                        <div class="pricing-card-header border-bottom">
+                            <span class="tag text-mono">02</span>
+                            <h3 class="pricing-card-title">CONCEPT VIDEO</h3>
+                        </div>
+                        <div class="pricing-card-body">
+                            <ul class="pricing-features text-mono">
+                                <li>[+] MULTIPLE SCENES / LOCATIONS</li>
+                                <li>[+] DIRECTED SHOOT</li>
+                                <li>[+] CREATIVE PLANNING INCLUDED</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-card-footer border-top">
+                            <span class="pricing-amount">R12,000 – R20,000</span>
+                            <span class="pricing-unit text-mono">PER VIDEO</span>
+                        </div>
+                    </div>
+
+                    <!-- Cinematic Music Video -->
+                    <div class="pricing-card border-card">
+                        <div class="pricing-card-header border-bottom">
+                            <span class="tag text-mono">03</span>
+                            <h3 class="pricing-card-title">CINEMATIC VIDEO</h3>
+                        </div>
+                        <div class="pricing-card-body">
+                            <ul class="pricing-features text-mono">
+                                <li>[+] FULL CREATIVE DIRECTION</li>
+                                <li>[+] ADVANCED LIGHTING + SCENES</li>
+                                <li>[+] STORY-DRIVEN VISUALS</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-card-footer border-top">
+                            <span class="pricing-amount">R25,000+</span>
+                            <span class="pricing-unit text-mono">PER VIDEO</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ====== ADD-ONS ====== -->
+            <div class="addons-section border-card">
+                <div class="addons-header">
+                    <span class="tag text-mono text-accent">⚡</span>
+                    <h3 class="addons-title">ADD-ONS</h3>
+                </div>
+                <div class="addons-grid">
+                    <div class="addon-item">
+                        <span class="addon-name">EXTRA REVISIONS</span>
+                        <span class="addon-price text-accent">R300 <span class="text-mono subtle-text">/ REVISION</span></span>
+                    </div>
+                    <div class="addon-item">
+                        <span class="addon-name">24HR TURNAROUND</span>
+                        <span class="addon-price text-accent">+R500 – R1,000</span>
+                    </div>
+                    <div class="addon-item">
+                        <span class="addon-name">SUBTITLES</span>
+                        <span class="addon-price text-accent">R200 <span class="text-mono subtle-text">/ VIDEO</span></span>
+                    </div>
+                    <div class="addon-item">
+                        <span class="addon-name">THUMBNAIL / COVER ART</span>
+                        <span class="addon-price text-accent">R150</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Portfolio Section Placeholder -->
+    <section id="portfolio" class="section section-darker border-top">
+        <div class="container">
+            <div class="section-header center">
+                <span class="sub-heading text-mono text-accent">// ARCHIVE</span>
+                <h2 class="section-title gap-bottom">RECENT WORK</h2>
+                <p class="text-mono subtle-text">SHOWREEL LOADING...</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item border-card">
+                    <div class="img-placeholder port-img-1"></div>
+                    <div class="item-info border-top text-mono">
+                        <span>STREET_VISUALS</span>
+                        <span class="text-accent">WATCH ></span>
+                    </div>
+                </div>
+                <div class="portfolio-item border-card">
+                    <div class="img-placeholder port-img-2"></div>
+                    <div class="item-info border-top text-mono">
+                        <span>STAGE_PERFORMANCE</span>
+                        <span class="text-accent">WATCH ></span>
+                    </div>
+                </div>
+                <div class="portfolio-item border-card">
+                    <div class="img-placeholder port-img-3"></div>
+                    <div class="item-info border-top text-mono">
+                        <span>BEHIND_THE_SCENES</span>
+                        <span class="text-accent">WATCH ></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking / CTA Section -->
+    <section id="booking" class="section section-cta border-top">
+        <div class="grain-overlay"></div>
+        <div class="container relative z-10">
+            <div class="cta-box border-card">
+                <div class="cta-content">
+                    <div class="cta-badge text-mono"><span class="pulse"></span> ACCEPTING NEW PROJECTS</div>
+                    <h2 class="cta-title">LET'S BUILD YOUR VISION.</h2>
+                    <p class="cta-desc">Ready to bring your music to life? Book a highly focused 30-minute strategy call
+                        with our director to map out your next visual.</p>
+
+                    <div class="price-box border-card">
+                        <span class="price-label text-mono">STRATEGY SESSION FEE</span>
+                        <span class="price-amount text-accent">R899</span>
+                    </div>
+
+                    <!-- CTA Button that will link to Calendly eventually -->
+                    <a href="#" class="btn btn-primary btn-large">BOOK STRATEGY CALL [R899]</a>
+                    <p class="subtext text-mono">*FEE IS CREDITED TOWARDS YOUR FINAL PRODUCTION BUDGET.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer border-top">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <h3 class="footer-logo">ON-SET</h3>
+                    <p class="text-mono subtle-text">RECORD LABEL &amp; PRODUCTION COMPANY.</p>
+                </div>
+                <div class="footer-links text-mono">
+                    <a href="mailto:info@onset.com">INQUIRIES@ONSET.COM</a>
+                    <a href="#">INSTAGRAM</a>
+                    <a href="#">YOUTUBE</a>
+                </div>
+            </div>
+            <div class="footer-bottom border-top flex-between text-mono subtle-text">
+                <span>&copy; 2026 ON-SET PRODUCTIONS.</span>
+                <span>SYSTEM ONLINE.</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
